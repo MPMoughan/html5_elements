@@ -3,19 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML 5 Elements</title>
+
+<link rel="stylesheet" href="main.css">
+
 </head>
 <body>
 
-<header> Working with HTML 5 Elements</header>
+<header class="header">
+Working with HTML 5 Elements.
+<br>
+<br>
+Header's typical contain elements like a logo, wrapped section's header, a search form, and so on
+  <img src="http://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Audi_Logo.svg/220px-Audi_Logo.svg.png" alt="">
 
-<nav></nav>
+</header>
+<hr>
+
+<nav>
+  <ul class="navBar">
+    <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+  </ul>
+</nav>
 
 <aside></aside>
 
 <article></article>
 
+
+<canvas id="c" width="500px" height="500px"></canvas>
+
 <footer></footer>
 
+<script>
+  var c = document.querySelector('#c');
+  var ctx = c.getContext("2d");
+
+  ctx.fillRect(100,100,100,100);
+  ctx.strokeRect(50,50,50,50);
+
+</script>
 
 
 

@@ -1,0 +1,27 @@
+body {
+  border-width: 10px;
+  border-color: #854442;
+  border-style: double;
+  background-color: #be9b7b;
+}
+
+
+header {
+  padding: 20px;
+}
+
+.header img {
+  float: right;
+  width: auto;
+  height: 60px;
+  background: #555;
+}
+
+.navBar {
+  clear: both;
+  float: left;
+}
+
+aside {
+  clear: both;
+}
